@@ -3,9 +3,9 @@
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVA html5: Etiquetas </title>
+    <title>OVI HTML5: Jerarquías </title>
     <link rel="stylesheet" href="estilo.css">
-     <h1>OVI:Estructura básica de html5 (etiquetas, atributos y valores).</h1>
+     <h1>OVI:Estructura básica de HTML5 (etiquetas, atributos y valores).</h1>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
             </ul>
         
           </li><li>Recursos
-           <ul ><li class="nave"><a href="Recurso_1.html"> Recurso 1</a></li>
-            <li class="nave"><a href="Recurso_2.html">Recurso 2</a></li>
+           <ul ><li class="nave"><a href="Recurso_1.html"> Importancia de la maquetación</a></li>
+            <li class="nave"><a href="Recurso_2.html">Uso del ID y CLASS</a></li>
             </ul>
           
           </li>
@@ -36,18 +36,70 @@
               </ul>
           </nav>
     
-    <section>
-    
-         <article>
-   </article>
+    <section id=contenido>
+      <h1>¿Cuándo usar CLASS y cuando usar ID?</h1>
+      <article class="Recurso">
+       
+       <div class=Audio><audio controls>
+         <source src="Audios/Recurso_audio_2_Tipo_MP3.mp3" type="audio/ogg">
+         <source src="Audios/Recurso_audio_2_Tipo_OGG.ogg" type="audio/mpeg">
+   
+             <object type="application/x-shockwave-flash" data="player.swf?miArchivo=Audios/Recurso_audio_2_Tipo_MP3.mp3">
+                 <param name="movie" value="player.swf?miArchivo=Audios/Recurso_audio_1_Tipo_MP3.mp3">
+                 <a href="Audios/Recurso_audio_2_Tipo_MP3.mp3">Descárgate aquí mi archivo de audio</a>
+             </object>
+           </div>
+     </audio>
+
+</article>
       <article>
-     
+     <p>A la hora de querer modificar como se ve tu página, 
+       se tiene la opción de configurar todo usando el nombre del elemento.
+        Pero si se necesita que se vea diferente una sección en específico se 
+        tiene que nombrar el elemento con una class o ID. El dilema que muchos 
+        es ¿cuál es mejor? y ¿Cuándo se usa puede usar uno en específico?</p>
+        <p>En el caso de usar un ID debe ser en un elemento único, y no puede 
+          haber otro elemento con el mismo nombre en el documento. 
+          A diferencia del Class que puede estar en varios elementos 
+          diferentes.</p>
 
       </article>
-    
+    <article>
+        <h2>Jerarquía entre elementos.</h2>
+        <ul>
+          <li>Si un elemento tiene su nombre tal cual, 
+            su estilo será igual como los demás elementos 
+            con ese nombre (0,0,1).</li>
+          <li>Si un elemento tiene un selector class, su estilo estará según 
+              como diga el .nombre del selector en su programación en CSS y otros 
+              elementos diferentes con ese class (0,1,0).</li>
+          <li>Si hay un selector ID es con un selector Class el estilo estará según 
+            como diga el ID (1,0,0).</li>
+        </ul>
+
+        <p>Con lo anterior queda claro que cuando se usa alguno de estos selectors 
+          es para ahorrar varias líneas de código. Si solo se requiere personalizar 
+          un solo elemento de una página se usa el ID, pero si se quiere usar varios 
+          elementos se puede usar el class. Y si hay un id y class en un elemento, 
+          el primero estará sobre el segundo sin importar que tenga el selector class. </p>
+
+
+          <h3>Referencias Usadas: </h3>
+          <ul> 
+          <li>Rana Negra. (2020). LA IMPORTANCIA Y EL PROCESO DEL DISEÑO Y MAQUETACIÓN WEB. Disenowebakus. Recuperado de: 
+            https://www.rananegra.es/blog/importancia-proceso-diseno-maquetacion-web</li> 
+          <li>Guevara, A. (2019). Diferencias entre el selector Class y el selector Id. 
+            Devcode. https://devcode.la/tutoriales/diferencias-class-id/ </li> 
+          
+     </ul>
+
+    </article>
     </section>
     
-    
+    <aside>
+        
+      <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/ConveniosUNAD?src=hash&amp;ref_src=twsrc%5Etfw">#ConveniosUNAD</a> Conoce el convenio de la UNAD con la Cooperativa Coopsagua y obtén un 15% de descuento sobre el valor de la matrícula.🤩<br>✔️Recuerda que presentando el certificado electoral vigente obtienes un 10% adicional.<br><br>Más información👉 <a href="https://t.co/3MwXHCCP1Z">https://t.co/3MwXHCCP1Z</a> <a href="https://t.co/utPqXvBRaw">pic.twitter.com/utPqXvBRaw</a></p>&mdash; Universidad UNAD (@UniversidadUNAD) <a href="https://twitter.com/UniversidadUNAD/status/1319298639995400192?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </aside>
     
     
      <footer>

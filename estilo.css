@@ -22,7 +22,7 @@ nav li{
       height:30px;
       padding:5px 10px;
       background-color:#F47920;
-      border:1px solid ##F47920;
+      border:1px solid #F47920;
       text-align:center;
       color:#fff;
       position:relative;
@@ -115,9 +115,10 @@ li {
     font-size: 14px;
     
 }
-section {
-    min-width: 600px;
-    max-width: 950px;
+
+#contenido {
+    min-width: 400px;
+    max-width: 900px;
     min-height: 200px;
     float:left;
     margin: 10px;
@@ -127,6 +128,8 @@ section {
     background: White;
 }
 
+
+
 article {
     
    
@@ -134,13 +137,23 @@ article {
     margin-bottom: 10px;
 }
  
-article img {
-    height: 200px;
-    width: 400px;
-    float: right;
-    margin-left: 20px;
+.art_inicio {
+
+    float: none;
+    min-width: 400px;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
+.art_inicio img {
+    float:center;
+    min-width: 100px;
+    min-height: 200px;
+    min-width: 400px;
+    max-width: 600px;
+    
+}
 .art_Concepto {
     float: none;
     min-width: 600px;
@@ -172,21 +185,14 @@ article img {
     min-height: 200px;
 }
     
-}
-figcaption {
-    font-family: 'Angsana New', 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
-    text-align:justify;
-    font-size: 12px;
-    
-}
+
 
 aside {
     display: inline-block;
     min-width: 150px;
     max-width: 200px;
     min-height: 200px;
- 
-    float: left;
+    float:left;
     margin-top: 10px;
     margin-left: 10px;
     padding: 20px;
@@ -241,4 +247,47 @@ footer {
 
 }
 
+.Recurso {
+    float:left;
+  
+    max-width: 300px;
+    max-height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+    font-family: 'Angsana New', 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
+    text-align:justify;
+    font-size: 14px;
+    
+  }
+  
+
+  
+ th, td {
+    padding: 2px;
+    border: 3px solid black;
+    font-family: 'Angsana New', 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
+    text-align:justify;
+    font-size: 14px;
+    
+  }
+ 
+
+  .Foto_pefil {
+    
+    float: left;
+    padding: 10px;
+     
+}
+    .Foto_pefil img {
+    
+        padding-left: 30px;
+        width: 100px;
+        height: 100px;
+}

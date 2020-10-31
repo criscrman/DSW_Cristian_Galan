@@ -3,43 +3,136 @@
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVA html5: Etiquetas </title>
+    <title>OVI HTML5: Importacia de la maquitación </title>
     <link rel="stylesheet" href="estilo.css">
-     <h1>OVI:Estructura básica de html5 (etiquetas, atributos y valores).</h1>
+     <h1>OVI:Estructura básica de HTML5 (etiquetas, atributos y valores).</h1>
 </head>
 
 <body>
-       <nav>
-          <ul>
-              <li><a href="Inicio.html" class="Primero">Inicio</a></li>
-          <li>Conceptos
-          <ul ><li class="nave"><a href="conceptos_1.html"> ¿Qué es una etiqueta?</a></li>
-            <li class="nave"><a href="conceptos_2.html">¿Qué es un atributos?  </a></li>
-            <li class="nave"><a href="conceptos_3.html">Uso de un valor y Referencias </a></li>
-            </ul>
-        
-          </li><li>Recursos
-           <ul ><li class="nave"><a href="Recurso_1.html"> Recurso 1</a></li>
-            <li class="nave"><a href="Recurso_2.html">Recurso 2</a></li>
-            </ul>
-          
-          </li>
-        
-          <li>Autoevaluación
-           <ul ><li class="nave"><a href="autoevaluacion_1.html"> Autoevaluación 1</a></li>
-            <li class="nave"><a href="autoevaluacion_2.html">Autoevaluación 2</a></li>
-            </ul>
-          </li>
-          
-          <li><a href="autor.html">Autor</a>
-          </li>
-              </ul>
-          </nav>
+  <nav>
+    <ul>
+        <li><a href="Inicio.html" class="Primero">Inicio</a></li>
+    <li>Conceptos
+    <ul ><li class="nave"><a href="conceptos_1.html"> ¿Qué es una etiqueta?</a></li>
+      <li class="nave"><a href="conceptos_2.html">¿Qué es un atributos?  </a></li>
+      <li class="nave"><a href="conceptos_3.html">Uso de un valor y Referencias </a></li>
+      </ul>
+  
+    </li><li>Recursos
+     <ul ><li class="nave"><a href="Recurso_1.html"> Importancia de la maquetación</a></li>
+      <li class="nave"><a href="Recurso_2.html">Uso del ID y CLASS</a></li>
+      </ul>
     
-    <section>
+    </li>
+  
+    <li>Autoevaluación
+     <ul ><li class="nave"><a href="autoevaluacion_1.html"> Autoevaluación 1</a></li>
+      <li class="nave"><a href="autoevaluacion_2.html">Autoevaluación 2</a></li>
+      </ul>
+    </li>
     
-         <article>
+    <li><a href="autor.html">Autor</a>
+    </li>
+        </ul>
+    </nav>
+    
+    <section id=contenido>
+      <h1>Importancia de la maquetación</h1>
+         <article class="Recurso">
+          
+          <div class=Audio><audio controls>
+            <source src="Audios/Recurso_audio_1_Tipo_MP3.mp3" type="audio/ogg">
+            <source src="Audios/Recurso_audio_1_Tipo_OGG.ogg" type="audio/mpeg">
+      
+                <object type="application/x-shockwave-flash" data="player.swf?miArchivo=Audios/Recurso_audio_1_Tipo_MP3.mp33">
+                    <param name="movie" value="player.swf?miArchivo=Audios/Recurso_audio_1_Tipo_MP3.mp3">
+                    <a href="Audios/Recurso_audio_1_Tipo_MP3.mp3">Descárgate aquí mi archivo de audio</a>
+                </object>
+              </div>
+        </audio>
+
    </article>
+            <p>
+              Desde la actualización de HTML a su versión 5 se implantó nuevos elementos, que mejoraron
+               y dinamizaron la programación de sitios Web. Entre eso, mejorar la maquetación con etiquetas 
+               especificas para su uso, los cuales son recomendables para seguir el estándar actual, 
+               y más si se quiere colocar su página web en las primeras posiciones cualquier buscador. 
+               Y de esta manera evitar el exceso de uso de la etiqueta DIV, que vuelve cualquier código de
+                programación de una página imposible de entender cuando solo hay DIV con otro DIV dentro de otro DIV, 
+                algo no muy raro en varias páginas hasta de nivel profesional. 
+            </p>
+
+            <p>Las etiquetas para una maquetación son las siguientes: </p>
+            <table >
+
+              <caption>Elementos de HTML que he aprendido hasta ahora</caption>
+            
+              <tr>
+            
+                <th>Elemento</th>
+            
+                <th>Descripción</th>
+            
+              </tr>
+            
+              <tr>
+            
+                <td>section</td>
+            
+                <td>Define una sección en un documento.</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <td>nav</td>
+            
+                <td>Define una sección que solamente contiene enlaces de navegación.</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <td>aside</td>
+            
+                <td>Define algunos contenidos vagamente relacionados con el resto del 
+                  contenido de la página. Si es removido, el contenido restante seguirá 
+                  teniendo sentido.</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <td>header</td>
+            
+                <td>Define la cabecera de una página o sección. Usualmente contiene un 
+                  logotipo, el título del sitio Web y una tabla de navegación de 
+                  contenidos.</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <td>footer</td>
+            
+                <td>Define el pie de una página o sección. Usualmente contiene un mensaje 
+                  de derechos de autoría, algunos enlaces a información legal o direcciones 
+                  para dar información de retroalimentación.</td>
+            
+              </tr>
+            
+              <tr>
+            
+                <td>main</td>
+            
+                <td>Define el contenido principal o importante en el documento. Solamente existe 
+                  un elemento "main" en el documento.
+                  Agrupación de Contenido.
+                  </td>
+            
+              </tr>
+              <p>Tabla 1. Lista de Elementos que hacer parte de una maquetación en HTML5. Recuperado de: https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos</p>
+            </table>
       <article>
      
 
@@ -47,7 +140,10 @@
     
     </section>
     
-    
+    <aside>
+        
+      <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/ConveniosUNAD?src=hash&amp;ref_src=twsrc%5Etfw">#ConveniosUNAD</a> Conoce el convenio de la UNAD con la Cooperativa Coopsagua y obtén un 15% de descuento sobre el valor de la matrícula.🤩<br>✔️Recuerda que presentando el certificado electoral vigente obtienes un 10% adicional.<br><br>Más información👉 <a href="https://t.co/3MwXHCCP1Z">https://t.co/3MwXHCCP1Z</a> <a href="https://t.co/utPqXvBRaw">pic.twitter.com/utPqXvBRaw</a></p>&mdash; Universidad UNAD (@UniversidadUNAD) <a href="https://twitter.com/UniversidadUNAD/status/1319298639995400192?ref_src=twsrc%5Etfw">October 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </aside>
     
     
      <footer>
