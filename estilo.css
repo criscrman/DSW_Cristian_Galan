@@ -1,4 +1,197 @@
-*{font-size:0;}
+/*{font-size:0;} */
+
+@media all and (max-width: 640px) {
+    iframe  {
+        min-width: 500px;
+        min-height: 450px;
+        max-width:600px;
+        max-height:400px; 
+        }
+    nav{
+        width: 100%;
+        background: #F47920;   
+        }
+
+    nav a{
+        text-decoration:none;
+        color:inherit;
+        font-size:14px;
+         }
+
+        li {
+            font-family: 'Angsana New', 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
+            font-size: 14px;
+            }
+    nav li{
+        display:block;
+        padding:4px 10px;
+        background-color:#F47920;
+        border:1px solid #F47920;
+        text-align:left;
+        color:#fff;
+        box-sizing:border-box;
+    }
+
+    nav li:hover{
+        background-color:#F0B429;
+        color:#fff;
+        box-sizing:border-box;
+       }
+   
+    ul.mini,
+    ul.nave{
+        padding-left: 0   
+     }
+
+     ul.nave li{
+        list-style: none;
+        background-color:#F47920;
+       
+        background: #F47920;
+        color:#fff;
+     }
+
+     ul.nave > li:hover ul.nave{
+        display: block;
+        background: #F47920;
+        color:#fff;
+     }
+
+     ul.nave{
+        display: none;
+        background: #F47920;
+     }
+
+     h1 {
+        padding: 15px;
+        color: #005883;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+        text-align: center;
+            font-size: 30px;
+        }
+        
+        h2 {
+        padding: 10px;
+        color: #005883;
+        font-family: 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
+        text-align: center;
+        font-size: 24px;
+        }
+        
+        h3 {
+        padding: 2px;
+        color: #005883;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+        text-align: left;
+        font-size: 18px;
+        }
+        
+        p {
+            font-family: 'Angsana New', 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
+            text-align:justify;
+            font-size: 14px;
+            
+            
+        }
+
+        img {
+
+           max-width: 400px;
+           max-height: 500px;
+           float: center;
+
+        }
+
+
+
+footer {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto; 
+    background-color:#005883;
+    float: left;
+ }
+
+
+        .p_final {
+             float: left;
+             width: 100%;
+             font-size: 10px;
+        }
+        
+        
+        .Certificados {
+            width: 150px;
+            height: 50px;
+            float: left;
+          
+            padding-top: 30px;
+        
+        }
+        
+        .UNAD {
+            width: 100px;
+            height: 80px;
+            float: left;
+        }
+        
+        .Recurso {
+            float:left;
+          
+            max-width: 300px;
+            max-height: 400px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        table {
+            table-layout: fixed;
+            width: 100%;
+            border-collapse: collapse;
+            
+            font-family: 'Angsana New', 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
+            text-align:justify;
+            font-size: 14px;
+            
+          }
+          
+        
+          
+         th, td {
+            padding: 2px;
+            border: 3px solid black;
+            font-family: 'Angsana New', 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
+            text-align:justify;
+            font-size: 14px;
+            
+          }
+         
+        
+          .Foto_pefil {
+            
+            float: left;
+            padding: 10px;
+             
+            }
+            .Foto_pefil img {
+            
+                padding-left: 30px;
+                width: 100px;
+                height: 100px;
+                }
+
+}
+
+
+
+
+@media all and (min-width: 641px) {
+
+    iframe  {
+        width:795px;
+         height:690px; 
+         }
 
 nav{
     width: 100%;
@@ -26,7 +219,7 @@ nav li{
       text-align:center;
       color:#fff;
       position:relative;
-    box-sizing:border-box;
+      box-sizing:border-box;
     
     
 }
@@ -61,25 +254,25 @@ nav li:hover>ul{
     
 }
 
-nav li:hover>ul{
+    nav li:hover>ul{
     
       display:block;
       position:absolute;
       top:30px;
       left:-39px;
-        height: 50px;
+      height: 50px;
   
     
     
-}
-
+    }
+    
 
 
 
 
 
 h1 {
-padding: 20px;
+padding: 15px;
 color: #005883;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
 text-align: center;
@@ -87,11 +280,11 @@ text-align: center;
 }
 
 h2 {
-padding: 20px;
+padding: 10px;
 color: #005883;
 font-family: 'Franklin Gothic Heavy', 'Arial Narrow', sans-serif;
 text-align: center;
-    font-size: 20px;
+font-size: 24px;
 }
 
 h3 {
@@ -284,10 +477,18 @@ table {
     float: left;
     padding: 10px;
      
-}
+    }
     .Foto_pefil img {
     
         padding-left: 30px;
         width: 100px;
         height: 100px;
-}
+        }
+
+
+
+
+
+
+
+    }
